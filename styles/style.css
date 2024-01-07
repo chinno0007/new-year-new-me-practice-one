@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+body{
+    font-family: Work Sans;
+}
 
 header{
     background-image: url('../images/banner/banner3.png');
@@ -24,18 +27,152 @@ header p{
     padding-bottom: 32px;
     margin: 0px;
     color: #FFF;
-    font-family: Work Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
 .btn-primary{
     color: #005FAC;
-    font-family: Work Sans;
     font-size: 20px;
     font-weight: 600;
     padding: 20px 25px;
     border-radius: 5px;
     background: #FFF;
     border-style: none;
+}
+
+/* last year */
+#about-previous-year{
+    margin:70px 322px 50px 206px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.previous-year-title{
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    }
+.previous-year-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.list-items{
+    list-style: none;
+    padding: 0px;
+    color:#444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* My Plan */
+.plan-title{
+    text-align: center;
+    margin: 70px 0px;
+}
+.plans{
+    display: flex;
+    justify-content: space-around;
+    width: 1261px;
+    margin-top:100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.plans div{
+    text-align: center;
+}
+.plans div h3{
+    color:#151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+.plans div p{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* mindset */
+.my-mindset{
+    margin:0 auto;
+    width: 1140px;
+    height: 300px;
+}
+.mindset{
+    /* Need to know more about linear gradients*/
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 59px 612px 59px 64px;
+    background-color: line;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%),url('../images/watch.png');
+    
+}
+.mindset h3{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 24px;
+    
+    
+}
+
+/* footer */
+footer{
+    background-color: #151414;
+    color: #FFF;
+
+    
+}
+.foot{
+    width: 1261px;
+    margin-top:100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    }
+.footer-des{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-form-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+input[type=email]{
+    color:#F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+}
+.btn-foot{
+    color:#F3F3F3;
+    border-radius: 8px;
+    background: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 15px;
 }
